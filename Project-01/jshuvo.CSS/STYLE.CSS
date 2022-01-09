@@ -1,0 +1,220 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(192, 164, 173);
+ 
+  /* background-image: url("/img/woman-pointing.jpg"); */
+  background-image:url(https://images.unsplash.com/photo-1558611848-73f7eb4001a1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGd5bXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+
+  background-size:cover;
+  background: position left"; 
+  /* font-family'Baloo Bhai 2', cursive; */
+}
+.left{
+display: inline-block;
+/* border: 2px solid red; */
+position: absolute;
+left: 40px;
+top: 15px;
+border-radius: 5px;
+filter: invert(100%);
+/* height: 160px; */
+text-align:right;
+}
+.left img{
+  width: 50px;
+  height: 50px;
+  margin: 0px 5px;
+  
+
+  
+}
+div .hasan {
+  text-align: center;
+  color: rgb(245, 237, 235);
+ display: block;
+ 
+}
+ .hasan{
+font-family: monospace;
+font-weight:bold;
+font-size: 1rem;
+
+}
+
+.center{
+  font-family: 'Baloo Bhai 2', cursive;
+  display: block;
+  width: 55%;
+  margin: 36px 250px;
+  padding-bottom: 0px;
+  /* border: 2px solid rgb(14, 10, 1); */
+  background-color: rgb(190, 147, 90);
+  border-radius: 25px;
+  
+
+
+}
+.dropdown-container{
+  display: inline;
+  position: relative;
+}
+.dropdown-content{
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  background-color: rgb(190, 147, 90) ;
+  text-align: left;
+  /* min-width: 10px; */
+  display: none;
+  /* display: block; */
+}
+.dropdown-content a{
+  display: block;
+}
+.dropdown-container:hover .dropdown-content{
+  display: block;
+
+
+}
+  .dropdown-content:hover {
+    background-color: burlywood;
+   border: 2px solid black;
+   border-radius: 25px;
+  }
+
+.right{
+  position: absolute;
+  right: 24px;
+  top: 45px;
+  display: inline-block;
+  /* border: 2px solid rgb(167, 201, 117); */
+
+}
+.navbar{
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar li a {
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+  padding: 34px 20px;
+   font-size: 1.3rem; 
+
+  
+}
+.navbar li a:hover, .navbar li a.active{
+ text-decoration: underline;
+  color: rgb(192, 88, 123);
+}
+button.btn{
+  margin: 0px 9px;
+  background-color: rgb(27, 4, 4);
+  color: azure;
+  padding: 5px 5px;
+  border: 2px solid pink;
+  border-radius: 15px;
+  font-size: 12px;
+  cursor: pointer;
+transition: 0.40s all;
+font-family: 'Baloo Bhai 2', cursive;
+  
+}
+button.btn:hover {
+  background-color: pink;
+  color: black;
+  font-weight: bold;
+  font-family: monospace;
+  font-style: italic;
+}
+button.btn:active {
+  background-color: chocolate;
+  color: rgb(14, 14, 0);
+}
+.container{
+  border: 2px solid rgb(211, 93, 112);
+  margin:10rem 10px;
+  padding: 35px 20px;
+  width: 50%;
+  border-radius: 25px;
+  color: rgb(214, 221, 221);
+  background-color: rgb(17, 15, 15);
+}
+.container h1{
+  text-align: center;
+  color: rgb(240, 149, 116);
+  
+}
+.container h1 span{
+  color: rgb(243, 102, 172);
+  
+}
+.container h1 .now {
+  color: rgb(221, 172, 36);
+}
+.form-group input{
+text-align: center;
+display: block;
+width: 360px;
+padding: 5px;
+margin: 11px auto;
+border: 2px solid rgb(116, 54, 54);
+border-radius: 15px;
+font-size: 1.1rem;
+font-family: 'Baloo Bhai 2', cursive;
+cursor: pointer;
+transition: 0.50s all;
+}
+.form-group input:hover {
+  background-color: rgb(240, 166, 180); 
+  
+}
+.form-group input:active{
+  background-color: sienna;
+}
+ .container button.BTN{
+   display: block;
+   width: 74%;
+   height: 30px;
+   margin: 20px auto;
+   border-radius: 15px;
+   transition: 0.40s all;
+   cursor: pointer;
+   font-family: monospace;
+   font-weight: bold;
+   font-size: 1.1rem;
+   
+ }
+ .container button.BTN:hover {
+   background-color: rgb(199, 183, 144);
+   font-weight: bold;
+   font-family: 'Baloo Bhai 2', cursive;
+   text-transform:uppercase;
+   
+ }
+ .container button.BTN:active {
+   background-color: coral;
+   font-family: monospace;
+   font-weight: bold;
+   color: yellow;
+ }
+  footer{
+   
+  background-color: rgb(241, 163, 163);
+  border-width: 5px;
+  border-radius: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font:medium;
+  text-shadow: 15px 3px 15px;
+  text-align: center;
+  width: 150px;
+  /* transition: 0.50s all; */
+ 
+    
+}
+/* footer:hover {
+  background-color: rgb(206, 230, 183);
+  font-family: monospace;
+} */
